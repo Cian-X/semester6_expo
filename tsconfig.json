@@ -9,8 +9,11 @@
     }
   },
   "include": [
-    "**/*.ts",
-    "**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "component/Header.tsx",
+    "constants/**/*.ts",
+    "constants/**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
   ]
